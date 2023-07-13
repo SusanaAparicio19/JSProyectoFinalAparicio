@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	
+		<link rel="icon" href="./img/icon.jpg">
+		<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+	  	<title> 46 Soles - Contacto</title>
+  	</head>
+	<body>
+		<div class="container">
+			<header style="background-color: #23014d" >
+			  <center> <img src="./img/marca.png" width=300 heigth=280> </center>
+			</header> 
+			<div class="Menu row">
+				<nav>
+					<ul>
+						<li><a href="index.html"> Inicio </a></li>
+						<li><a href="venta.html"> Venta </a></li>
+						<li><a href="contacto.html"> Contacto </a></li>							
+					</ul>
+				</nav>
+			</div>	
+			<br>
+			<br>	
+			<h1 class="animate__animated animate__fadeInTopLeft">Contacto</h1>
+			<hr>
+			<div class="contenedor_contacto" id="formularioContacto">
+				<form class="animate__animated animate__fadeInTopLeft form">
+					<label>Nombre :</label>
+					<input type="text" id="nombre" placeholder="Escribe Tu Nombre" maxlength="40" size="50"/>
+					<br>
+					<br>
+					<label>Apellido :</label>
+					<input type="text" id="apellido" placeholder="Escribe Tu Apellido" maxlength="40" size="50"/>
+					<br>
+					<br>
+					<label>Email :</label>
+					<input type="email" id="email" placeholder="Escribe Tu Email" maxlength="40" size="50"/>
+					<br>
+					<small id="mensaje"></small>
+					<br>
+					<br>
+					<label>Desea Recibir Novedades?</label>
+					<br>
+					<br>
+					<input type="checkbox" id="novedades"> 
+					<br>
+					<br>
+					<textarea name="" cols="50" rows="10"> Comentarios</textarea>
+					<br>
+					<br>
+					<input type="submit" value="Enviar" class="btn btn-success"/>
+					<input type="button" value="Borrar" id="borrar_contacto" class="btn btn-danger"/>
+				</form>
+			</div>
+			<hr>
+			<footer>
+				<div class="Abajo row">
+				<div class="redes">
+					<h6 class="text-center">Copyrigth - Todos los derechos reservados</h6>
+					<p class="text-center">Seguime en las redes</p>
+					<ul>
+						<li><a href="https://instagram.com">Instagram</a></li>
+						<li><a href="https://facebook.com">Facebook</a></li>
+						<li><a href="https://twitter.com">Twitter</a></li>
+					</ul>
+				</div>
+				</div>
+			</footer>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<!-- Mi script -->
+		<script src="correo.js"></script>
+		
+	</body>
+</html>
